@@ -76,7 +76,29 @@ if (num6 === 8 || num7 === 8 || num6 + num7 === 8 || num6 - num7 === 8) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+const num8 = 10;
+const num9 = 19;
+const num10 = 15;
+
+if (num8 >= num9 && num8 >= num10) {
+  if (num9 >= num10) {
+    console.log(num8, num9, num10);
+  } else {
+    console.log(num8, num10, num9);
+  }
+} else if (num9 >= num8 && num9 >= num10) {
+  if (num8 >= num10) {
+    console.log(num9, num10, num8);
+  } else {
+    console.log(num9, num10, num8);
+  }
+} else {
+  if (num8 >= num9) {
+    console.log(num10, num8, num9);
+  } else {
+    console.log(num10, num9, num8);
+  }
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
