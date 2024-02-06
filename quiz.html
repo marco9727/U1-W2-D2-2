@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz a Risposte Multiple</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="quiz-container">
+      <h2>Domanda 1: Quale è la capitale dell'Italia?</h2>
+      <button onclick="rispostaSelezionata('Roma')">Roma</button>
+      <button onclick="rispostaSelezionata('Parigi')">Parigi</button>
+      <button onclick="rispostaSelezionata('Berlino')">Berlino</button>
+
+      <h2>Domanda 2: Quale è il colore del cielo?</h2>
+      <button onclick="rispostaSelezionata('Blu')">Blu</button>
+      <button onclick="rispostaSelezionata('Rosso')">Rosso</button>
+      <button onclick="rispostaSelezionata('Verde')">Verde</button>
+
+      <button onclick="calcolaRisultato()">Verifica Risposte</button>
+    </div>
+
+    <script src="quiz.js"></script>
+  </body>
+</html>
